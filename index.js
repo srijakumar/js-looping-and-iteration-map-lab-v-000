@@ -19,10 +19,14 @@ return list.map(
    const driverLast = driver.split(" ")[1];
 
    return {firstName: driverFirst, lastName: driverLast}
-   
+
   });
-  
 
+}
 
-  
+function attributesToPhrase(list){
+  return list.map(drivers){
+    return`${driver.name} is from ${driver.hometown}`;
+  }
+);
 }

@@ -23,10 +23,3 @@ return list.map(
   });
 
 }
-
-function attributesToPhrase(list1){
-  return list1.map(driver){
-    return`${driver.name} is from ${driver.hometown}`;
-  }
-);
-}

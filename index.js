@@ -3,7 +3,7 @@ function lowerCaseDrivers(array){
   return array.map(
 
     function(driver){
-    driver.lowercase;
+    driver.toLowercase;
   }
 
 );

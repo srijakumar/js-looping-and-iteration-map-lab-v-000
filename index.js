@@ -24,9 +24,9 @@ return list.map(
 
 }
 
-function attributesToPhrase(list){
-  return list.map(drivers){
-    return`${drivers.name} is from ${drivers.hometown}`;
+function attributesToPhrase(list1){
+  return list.map(driver){
+    return`${driver.name} is from ${driver.hometown}`;
   }
 );
 }
